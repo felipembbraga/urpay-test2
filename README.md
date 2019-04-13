@@ -42,7 +42,7 @@ Consulta um usuário no sistema.
 
 ##### OPCIONAL
 
-Nessa consulta, retorne a quantidade de horas já trabalhadas pelo usuário **no dia**.
+Nessa consulta, retorne a quantidade de horas já trabalhadas pelo usuário **no dia** e **no mês**.
 
 #### `PUT /users/:id` - Editar Usuário
 
