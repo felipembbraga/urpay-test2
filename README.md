@@ -67,3 +67,7 @@ Insere um ponto batido pelo usuário.
 **IMPORTANTE**
 
 A entrada do endpoint só vai conter a data e hora em que foi batido o ponto. O sistema deve selecionar automaticamente se esse ponto foi de entrada ou de saída.
+
+### Nota
+
+Neste repositório há uma pré-configuração para a utilização do Node.js. Caso desejar, pode ser feita a clonagem desta para dar uma "mãozinha" no seu projeto.
