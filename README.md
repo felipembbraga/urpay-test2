@@ -40,7 +40,7 @@ Cadastra um usuário no sistema
 
 Consulta um usuário no sistema.
 
-**OPCIONAL**
+##### OPCIONAL
 
 Nessa consulta, retorne a quantidade de horas já trabalhadas pelo usuário **no dia**.
 
@@ -56,7 +56,7 @@ Remover o usuário do sistema
 
 Lista os pontos batidos pelo usuário.
 
-**OPCIONAL**
+##### OPCIONAL
 
 Faça com a possibilidade de filtrar por dia
 
@@ -64,7 +64,7 @@ Faça com a possibilidade de filtrar por dia
 
 Insere um ponto batido pelo usuário.
 
-**IMPORTANTE**
+##### IMPORTANTE
 
 A entrada do endpoint só vai conter a data e hora em que foi batido o ponto. O sistema deve selecionar automaticamente se esse ponto foi de entrada ou de saída.
 
