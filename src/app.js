@@ -21,10 +21,13 @@ const app = express()
 // habilitando json nas requisições e respostas
 app.use(bodyParser.json())
 
-//rota build info
+// Rota raiz
 app.get("/", (_req, res) => {
     res.send("Olá mundo!")
 })
+
+// importando routers
+app.use('/todos', require('./todo/todo.router'))
 
 
 module.exports = app

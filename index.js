@@ -5,6 +5,7 @@ require("dotenv").config()
 
 // import do app
 const app = require("./src/app")
+// import app from './src/app'
 
 // Configuração server http
 const http = require("http").Server(app)
