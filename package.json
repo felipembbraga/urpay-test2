@@ -1,0 +1,24 @@
+{
+  "name": "express-base",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "dotenv": "^7.0.0",
+    "express": "^4.16.4",
+    "mongoose": "^5.5.1"
+  },
+  "devDependencies": {
+    "eslint": "^5.16.0",
+    "eslint-plugin-node": "^8.0.1",
+    "eslint-plugin-promise": "^4.1.1",
+    "jest": "^24.7.1",
+    "supertest": "^4.0.2"
+  }
+}
