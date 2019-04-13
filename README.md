@@ -26,15 +26,22 @@ Referência ao registro de ponto do usuário
 
 ### API
 
+
 A API do projeto deve possuir os seguintes endpoints
+
+-------------------------------------------------
 
 #### `GET /users` - Listar Usuários
 
 lista todos os usuários cadastrados
 
+-------------------------------------------------
+
 #### `POST /users` - Cadastrar Usuário
 
 Cadastra um usuário no sistema
+
+-------------------------------------------------
 
 #### `GET /users/:id` Consultar Usuário
 
@@ -44,13 +51,19 @@ Consulta um usuário no sistema.
 
 Nessa consulta, retorne a quantidade de horas já trabalhadas pelo usuário **no dia** e **no mês**.
 
+-------------------------------------------------
+
 #### `PUT /users/:id` - Editar Usuário
 
 Editar os dados do usuário
 
+-------------------------------------------------
+
 #### `DELETE /users/:id` - Remover Usuário
 
 Remover o usuário do sistema
+
+-------------------------------------------------
 
 #### `GET /users/:id/timecard` - Listar Pontos batidos pelo usuário
 
@@ -60,7 +73,10 @@ Lista os pontos batidos pelo usuário.
 
 Faça com a possibilidade de filtrar por dia
 
+-------------------------------------------------
+
 #### `POST /users/:id/timecard` - Bater o ponto
+
 
 Insere um ponto batido pelo usuário.
 
@@ -68,6 +84,6 @@ Insere um ponto batido pelo usuário.
 
 A entrada do endpoint só vai conter a data e hora em que foi batido o ponto. O sistema deve selecionar automaticamente se esse ponto foi de entrada ou de saída.
 
-### Nota
+## Nota
 
 Neste repositório há uma pré-configuração para a utilização do Node.js. Caso desejar, pode ser feita a clonagem desta para dar uma "mãozinha" no seu projeto.
